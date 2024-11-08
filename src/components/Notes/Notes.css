@@ -1,0 +1,95 @@
+.Notes {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+h1 {
+  margin-bottom: 0;
+
+  font-weight: 200;
+}
+
+.note-card__input-group {
+  width: 300px;
+
+  position: relative;
+}
+
+textarea {
+  padding: 8px;
+  width: 100%;
+
+  font-size: 20px;
+}
+
+.note-card__input-group button {
+  width: 50px;
+  height: 50px;
+
+  background-color: white;
+  background-image: url('../../icons/304729.svg');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 15px;
+  right: -10px;
+
+  border-radius: 50%;
+}
+
+.notes-list {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.note-card {
+  min-width: 200px;
+  max-width: 300px;
+  height: 130px;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+  position: relative;
+
+  text-align: left;
+}
+
+.note-card p {
+  word-break: break-word;
+}
+
+.note-card button {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+
+  background-color: white;
+  color: red;
+  font-size: 30px;
+  font-weight: 400;
+
+  border: 1px solid black;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  position: absolute;
+  top: -30px;
+  right: -20px;
+}
